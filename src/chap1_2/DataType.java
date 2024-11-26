@@ -1,4 +1,4 @@
-package chapt1_2;  //상단에 자기가 속한 파일 이름을 적어줘야 함
+package chap1_2;  //상단에 자기가 속한 파일 이름을 적어줘야 함
 
 public class DataType {  // public 후 파일 명을 한 번 더 적어줘야 함.
 

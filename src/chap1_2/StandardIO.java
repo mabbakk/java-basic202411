@@ -1,6 +1,5 @@
-package chapt1_2;
+package chap1_2;
 
-import java.io.IOException;
 import java.util.Scanner;
 
 public class StandardIO {
