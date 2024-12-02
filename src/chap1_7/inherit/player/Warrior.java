@@ -8,6 +8,15 @@ public class Warrior extends Player{
     // 직업 개별 속성
     int rage; // 분노게이지  -->> 전사만 가지고 있는 속성!
 
+    // 기본 생성자
+//    public Warrior() {
+        //  상속에서는 자식 객체를 생성하게 되면
+        // 부모의 객체도 함께 만들어야 한다.
+        // 자바는 자동으로 상속 메모리 구조를 구현하기 위해
+        // 자식 생성자의 맨 첫 줄에 super()를 삽입하여 부모를 강제호출한다.
+//        super();  부모의 기본 생성자가 없으므로 에러가 남.
+//    }
+
     // 생성자
     public Warrior(String nickname) {
 //        this(nickname); // 본인의 생성자

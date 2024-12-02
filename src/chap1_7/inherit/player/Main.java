@@ -7,7 +7,7 @@ public class Main {
                         |
                       Player
                 /       |       \
-             Warrior   Mage     Hunter
+             Warrior   Mage    Hunter
                 |
            SuperWarrior
      */
