@@ -1,5 +1,7 @@
 package chap1_7.inherit.player;
 
+import chap1_8.poly.drive.Tesla;
+
 public class Main {
 
     /*
@@ -24,5 +26,22 @@ public class Main {
         hunter.showStatus();
 
         System.out.println();
+
+        System.out.println("==============");
+
+        mage.fireBall(warrior);
+        mage.fireBall(hunter);
+        mage.fireBall(new Mage("다른마봅사"));
+
+        mage.fireBall(mage);
+
+        System.out.println("==============");
+        
+        mage.thunderbolt(warrior, hunter
+                , new Mage("냠냠이")
+                , new Hunter("원생이")
+                , new Warrior("막띠려")
+                , mage
+        );
     }
 }
