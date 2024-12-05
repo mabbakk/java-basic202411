@@ -15,11 +15,4 @@ public class Galaxy implements SmartPhone {
     public void internet() {
 
     }
-
-    // 카메라 기능
-
-    // 충전 기능
-
-    // 인터넷 기능
-
 }

@@ -1,9 +1,14 @@
 package chap1_10.inter.animal;
 
+// 클래스 상속과 인터페이스 구현을 동시에 할때는 상속이 우선
+public class BullDog
+        extends Animal implements Aggressive, Pet {
 
-import chap1_9.final_.Animal;
+    @Override
+    public void sleep() {
+        Pet.super.sleep();
+    }
 
-public class BullDog implements Aggressive, Pet {
     @Override
     public void hunt(Animal pet) {
 
@@ -30,4 +35,3 @@ public class BullDog implements Aggressive, Pet {
 
     // 애완동물로 키울 수도 있음
 }
-

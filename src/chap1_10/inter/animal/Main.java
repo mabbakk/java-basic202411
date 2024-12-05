@@ -5,5 +5,6 @@ public class Main {
     public static void main(String[] args) {
 
         BullDog bullDog = new BullDog();
+        Duck duck = new Duck();
     }
 }

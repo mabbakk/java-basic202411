@@ -1,6 +1,6 @@
 package chap1_10.inter.animal;
 
-public class Rabbit implements Pet, Wild{
+public class Rabbit implements Pet, Wild {
     @Override
     public void handle() {
 

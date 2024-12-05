@@ -1,7 +1,5 @@
 package chap1_10.inter.animal;
 
-import chap1_9.final_.Animal;
-
 public class Shark implements Aggressive {
     // 사냥 가능
     @Override
