@@ -1,4 +1,4 @@
-package chap1_10.practice_Book;
+package chap1_10.practice.Book;
 
 public class Ebook extends Book {
 
