@@ -26,7 +26,7 @@ public class Filtering {
 
         List<Dish> vegetarianList = menuList.stream()       // 1. 데이터 소스 생성
                 .filter((dish) -> dish.isVegetarian()) // 2. 중간 연산
-                .collect(toList());              // 3. 최종 연산
+                .collect(toList());                         // 3. 최종 연산
 
 
         // 반복문 처리
