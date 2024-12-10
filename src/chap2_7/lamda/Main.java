@@ -76,6 +76,10 @@ public class Main {
         List<String> filterFoods = filter(foods, f -> f.length() == 3);
         System.out.println("filterFoods = " + filterFoods);
 
+        System.out.println("=========");
+
+
+
 
     }
 
